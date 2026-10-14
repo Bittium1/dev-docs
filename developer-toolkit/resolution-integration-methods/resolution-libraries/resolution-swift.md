@@ -45,10 +45,10 @@ import UnstoppableDomainsResolution
 let resolution = try Resolution(configs: Configurations(
         uns: UnsLocations = UnsLocations(
             layer1: NamingServiceConfig(
-                providerUrl: "https://eth-mainnet.alchemyapi.io/v2/_BDuTLPgioYxULIE5cGq3wivWAJborcM",
+                providerUrl: "https://eth-mainnet.alchemyapi.io/v2/YOUR_ALCHEMY_API_KEY",
                 network: "mainnet"),
             layer2: NamingServiceConfig(
-                providerUrl: "https://polygon-mainnet.g.alchemy.com/v2/bKmEKAC4HJUEDNlnoYITvXYuhrIshFsa",
+                providerUrl: "https://polygon-mainnet.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY",
                 network: "polygon-mainnet"),
             zlayer: NamingServiceConfig(
                 providerUrl: "https://api.zilliqa.com",
